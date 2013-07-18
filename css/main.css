@@ -1,0 +1,180 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/***** CSS3 @font-face styles *****/
+
+@font-face {
+    font-family: 'PacificoRegular';
+    src: url('fonts/pacifico/Pacifico-webfont.eot');
+    src: url('fonts/pacifico/Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pacifico/Pacifico-webfont.woff') format('woff'),
+         url('fonts/pacifico/Pacifico-webfont.ttf') format('truetype'),
+         url('fonts/pacifico/Pacifico-webfont.svg#PacificoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LearningCurve';
+    src: url('fonts/learningcurve/LearningCurve_OT-webfont.eot');
+    src: url('fonts/learningcurve/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/learningcurve/LearningCurve_OT-webfont.woff') format('woff'),
+         url('fonts/learningcurve/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('fonts/learningcurve/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LearningCurveDashed';
+    src: url('fonts/learningcurve/LearningCurveDashed_OT-webfont.eot');
+    src: url('fonts/learningcurve/LearningCurveDashed_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/learningcurve/LearningCurveDashed_OT-webfont.woff') format('woff'),
+         url('fonts/learningcurve/LearningCurveDashed_OT-webfont.ttf') format('truetype'),
+         url('fonts/learningcurve/LearningCurveDashed_OT-webfont.svg#LearningCurveDashedProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'StMarie';
+    src: url('fonts/stmarie/StMarie-Thin-webfont.eot');
+    src: url('fonts/stmarie/StMarie-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/stmarie/StMarie-Thin-webfont.woff') format('woff'),
+         url('fonts/stmarie/StMarie-Thin-webfont.ttf') format('truetype'),
+         url('fonts/stmarie/StMarie-Thin-webfont.svg#StMarieThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/***** typography styles *****/
+
+h1 {
+	font-family:LearningCurveDashed;
+	color:#fff;
+	font-size:50px;
+	font-weight:normal;
+	line-height:.9em;
+}
+h2 {
+	font-family:StMarie;
+	color:#fff;
+	font-size:50px;
+	text-transform:uppercase;
+	line-height:1em;
+	font-weight:normal;
+}
+h3 {
+	font-family:StMarie;
+	color:#474747;
+	font-size:40px;
+	line-height:1em;
+	margin-bottom:30px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+h4 {
+	font-family:LearningCurve;
+	color:#474747;
+	font-size:50px;
+	font-weight:normal;
+	line-height:.9em;
+}
+p {
+	color:#fff;
+	font-size:16px;
+	font-weight:lighter;
+	letter-spacing:1px;
+}
+
+
+
+
+
+/***** color block div classes ******/
+
+.coral {
+	background-color:#E8665E;
+	padding:100px;
+}
+.marigold {
+	background-color:#FFD54C;
+	padding-top:100px;
+}
+.blue {
+	background-color:#7359FF;
+}
+.seafoam {
+	background-color:#45E8B6;
+}
+.yellow {
+	background-color:#FFFC26;
+}
+.block {
+	margin:0px;
+	padding:30px 0px;
+	height:100%;
+}
+.btn p{
+	font-family:LearningCurve;
+	color:#474747;
+	font-size:40px;
+	font-weight:normal;
+	line-height:.9em;
+	padding:0px;
+	margin:0px;
+}
+
+#showStory{
+	margin-top:150px;
+}
+
+
+
+/**** block1 ****/
+#header1 {
+	font-size:140px;
+	margin-top:50px;
+}
+#header2 {
+	font-size:140px;
+	margin-top:-10px;
+}
+
+
+/**** block2 and circles ****/
+
+.circle {
+  border-radius: 50%;
+  width: 100%;
+  background: white;
+  margin:0px auto;
+  height:350px;
+}
+.circle h4 {
+	padding-top:40px;
+}
+.circle p {
+	color:#474747;
+	padding:0px 15px;
+}
+.span4 {
+	text-align:center;
+}
+
+#storyblock{
+	display:none;
+}
+
+
+
+
+
+
+
