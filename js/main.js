@@ -82,8 +82,8 @@ function loadNext(count){
 
 function showStory(){
 
-	$('#storyblock').css({'display':'block'});
-	$('#storyblock').append('<h1>'+title+'</h1><p class="storyText" id="theText">'+storyText[0]+'</p>');
+	$('#story').css({'display':'block'});
+	$('#storyText').append('<h1>'+title+'</h1><p>'+storyText[0]+'</p>');
 
 	for(var i=0;i<answers.length;i++){
 		$('#theText').append(answers[i]+storyText[i+1]);

@@ -58,7 +58,7 @@
 h1 {
 	font-family:LearningCurveDashed;
 	color:#fff;
-	font-size:50px;
+	font-size:70px;
 	font-weight:normal;
 	line-height:.9em;
 }
@@ -88,9 +88,10 @@ h4 {
 }
 p {
 	color:#fff;
-	font-size:16px;
-	font-weight:lighter;
+	font-size:26px;
 	letter-spacing:1px;
+	line-height:1.8em;
+	font-family:StMarie;
 }
 
 
@@ -168,7 +169,7 @@ p {
 	text-align:center;
 }
 
-#storyblock{
+#story{
 	display:none;
 }
 
